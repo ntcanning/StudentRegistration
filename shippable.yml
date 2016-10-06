@@ -5,5 +5,4 @@ jdk:
   
 build:
   ci:
-    - mvn install
-    - mvn test
+    - mvn install -DskipTests=true
